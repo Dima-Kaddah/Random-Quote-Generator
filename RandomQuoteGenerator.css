@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+
+.quote {
+  padding: 60px;
+  font-size: 3rem;
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+}
+.source {
+  font-size: 1.5rem;
+  padding-left: 70%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+#switchQ {
+  font-size: 2rem;
+}
+#icon,
+#icon2 {
+  font-size: 2rem;
+  width: 70px;
+}
+#longEmpty {
+  width: 500px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: seashell;
+}
+#flexAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  width: 70%;
+  background-color: seashell;
+  min-height: 60vh;
+  border-radius: 20%;
+}
+button {
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
